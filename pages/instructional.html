@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructional - Twinrinks</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../assets/twinlogo.gif" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"  crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <!-- wrapper  -->
+  <div class="container-fluid bg-dark shadow-sm">
+    <div class="row d-flex align-items-center p-1">
+      <div class="col-12 col-sm-6">
+        <marquee direction="right">
+          <p class="text-light mb-0 pb-0">Free shipping, 30-day return or refund guarantee.</p>
+        </marquee>
+      </div>
+      <div class="col-12 col-sm-6 d-flex flex-wrap align-items-end justify-content-center justify-content-sm-end">
+        <a href="tel:(847) 821-7465" class="text-decoration-none text-light sign_button"><i
+            class="fa-solid fa-phone"></i>&nbsp; (847) 821-7465</a> &nbsp;&nbsp;
+        <a href="mailto:info@twinrinks.com" class="text-decoration-none text-light sign_button"><i
+            class="fa-solid fa-envelope"></i>&nbsp; info@twinrinks.com</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- navbar  -->
+
+<div class="container-fluid d-none d-sm-block" id="desktop_navbar">
+  <div class="row py-3">
+    <div class="col-6 col-sm-4 col-md-4 col-lg-4 d-none d-sm-none d-md-none d-lg-block"></div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+      <a class="navbar-brand d-flex align-items-center justify-content-lg-center justify-content-md-start justify-content-sm-start" href="../index.html">
+        <img src="../assets/twinlogo.gif" alt="twinrink" class="img-fluid logo">
+      </a>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+      <nav class="navbar navbar-expand-sm">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="menu_link nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="menu_link nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="menu_link nav-link" href="https://ul.waze.com/ul?preview_venue_id=178323878.1782911098.446156&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">Location</a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu_link" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item menu_link" href="../pages/beginningskatingschool.html" target="_blank">Beginning Skating School</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Performance Skating School</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Youth Hockey Classes</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Freestyle Sessions</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Youth Hockey League</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Livestream PPV Hockey Games</a></li>
+              <li><a class="dropdown-item menu_link" href="../pages/adulthockeyleague.html" target="_blank">Adult Hockey</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Available Ice next 30 days</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Public Skating Hours (none)</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Pro Shop and Skate Sharpening</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Directions to Twin Rinks</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Directions to Other Rinks</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Twin Rinks apparel store</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Twin Rinks skarks apparel store</a></li>
+            </ul>
+          </li>
+
+        </ul>
+    </div>
+  </nav> 
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+ <nav class="navbar navbar-expand-sm d-block d-sm-none" id="phone_navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="../index.html">
+        <img src="../assets/twinlogo.gif" alt="twinrink" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="menu_link nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="menu_link nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="menu_link nav-link" href="https://ul.waze.com/ul?preview_venue_id=178323878.1782911098.446156&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">Location</a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu_link" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item menu_link" href="../pages/beginningskatingschool.html" target="_blank">Beginning Skating School</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Performance Skating School</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Youth Hockey Classes</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Freestyle Sessions</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Youth Hockey League</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Livestream PPV Hockey Games</a></li>
+              <li><a class="dropdown-item menu_link" href="../pages/adulthockeyleague.html" target="_blank">Adult Hockey</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Available Ice next 30 days</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Public Skating Hours (none)</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Pro Shop and Skate Sharpening</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Directions to Twin Rinks</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Directions to Other Rinks</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Twin Rinks apparel store</a></li>
+              <li><a class="dropdown-item menu_link" href="#" target="_blank">Twin Rinks skarks apparel store</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+
+    </div>
+  </nav>
+
+
+ <!-- Beginning Skating School Section  -->
+ <main>
+  <div class="container-fluid" id="adult_hockey_instructional">
+    <div class="row banner_section_overlay m-0">
+      <div class="col-12 d-flex align-items-center justify-content-center">
+        <h1 class="banner_heading">Adult Hockey Instructinal</h1>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<div class="container py-3">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="beginning_skating_school_heading text-center">Instructional Adult Hockey Classes</h3>
+      <h4 class="fw-bold text-center">July 2, 2023 to January 7, 2024</h4>
+      <p class="fw-bold text-center">26 sessions</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <ul>
+          <li>Instructional Adult Hockey classes are designed for those individuals with minimal or no previous hockey experience who want to develop their skills and learn to play the game. The goal is for each participant to graduate from instructional classes and join our beginner hockey league.</li>
+          <li>Instructors will to teach the basic skills, concepts and rules of hockey. Emphasis on Skating, Stickhandling, Shooting, Passing and Positioning.</li>
+          <li>The sessions will be divided between training (drills) and scrimmage.</li>
+          <li>No checking.</li>
+          <li>Sunday nights 7:00pm to 8:30pm.</li>
+          <li>Full equipment required: HECC approved helmet w/full cage, shoulder pads, elbow pads, gloves, pants, shin guards, hockey skates, and a hockey stick.</li>
+          <li>All players must register and pay AAU and email us the confirmation form.</li>
+          <li>New players are always welcome! Join anytime. The orginal full fee and current prorated prices are shown below. email  for information on how to register.</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container py-3">
+  <div class="row">
+   <div class="col-12">
+      <h3 class="fw-bold text-center">FEES after 6-25-23</h3>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Full Payment $836.00  --  Current Prorated Price $ 512.00 with Chase Quickpay or Zelle</p>
+        <a href="https://www.twinrinks.com/registration_zell_step1.php?%20product_sku_1=INST-INDI&product_description_1=Instructional%20Adult%20League-Full%20Fee%20$836.00&product_amount_1=%20512.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Full Payment $878.00  --  Current Prorated Price $ 538.00 with credit card</p>
+        <a href="https://www.twinrinks.com/registration_tran_click.php?%20product_sku_1=INST-INDI&product_description_1=Instructional%20Adult%20League-Full%20Fee%20$878.00&product_amount_1=%20538.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Monthly Perpetual Payment Plan $300.00 now and $127.00 every 30 days.</p>
+        <a href="https://www.twinrinks.com/inst/indi-monthly.php"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Both rinks 1 year boards plus your hockey free for 1 year. pay with Chase Quickpay or Zelle $2440.00</p>
+        <a href="https://www.twinrinks.com/registration_zell_step1.php?product_sku_1=INST-INDI&product_description_1=NBOARDS-A%20Both%20rinks%201%20year%20boards%20plus%201%20year%20free%20Instructional%20Adult%20League%20Hockey&product_amount_1=2440.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Both rinks 1 year boards plus your hockey free for 1 year. pay with credit card $2560.00</p>
+        <a href="https://www.twinrinks.com/registration_tran_click.php?%20product_sku_1=INST-INDI&product_description_1=NBOARDS-A%20Both%20rinks%201%20year%20boards%20plus%201%20year%20free%20Instructional%20Adult%20League%20Hockey&product_amount_1=2560.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Goalie Zelle $1.00</p>
+        <a href="https://www.twinrinks.com/registration_zell_step1.php?%20product_sku_1=INST-INDI&product_description_1=Instructional%20Adult%20Goalie%20$1.00&product_amount_1=1.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>Goalie credit card $2.00</p>
+        <a href="https://www.twinrinks.com/registration_tran_click.php?%20product_sku_1=INST-INDI&product_description_1=Instructional%20Adult%20Goalie%20$2.00&product_amount_1=2.00"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>$190 for the season with Chase Quickpay or Zelle</p>
+        <a href="https://www.twinrinks.com/adulthockey/locker_zelle.htm"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column text-center p-3 payment_card">
+        <p>$200 with credit card</p>
+        <a href="https://www.twinrinks.com/adulthockey/locker_cc.htm"><button class="adult_hockey_btn">Pay Now</button></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <footer class="py-3 bg-dark" id="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item">
+              <span class="footer-title">Services</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="../pages/beginningskatingschool.html">Beginning Skating School</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="#">Performance Skating School</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="#">Youth Hockey Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="#">Freestyle Sessions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item">
+              <span class="footer-title">Company</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="../index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="../index.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item">
+              <span class="footer-title">Contact & Support</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="tel:(847) 821-7465" target="_blank"><i class="fas fa-phone"></i>
+                &nbsp; (847) 821-7465</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="mailto:info@twinrinks.com" target="_blank"><i
+                  class="fas fa-envelope"></i> &nbsp; info@twinrinks.com</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="#"><i class="fas fa-comments"></i> &nbsp; Frequently Asked
+                Questions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_nav_link" href="#"><i class="fas fa-star"></i> &nbsp; Give feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter footer_social_link"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f footer_social_link"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin-in footer_social_link"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center text-light"><i class="fas fa-ellipsis-h"></i></div>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quick-links">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="container-fluid py-2" style="background-color: var(--dark-color);">
+    <div class="row">
+      <div class="col-12 text-center">
+        <span class="copyright quick-links">Copyright
+          <script>document.write(new Date().getFullYear())</script>.All Right Reserved. Powered By <a
+            href="https://www.adsrole.com/" target="_blank" class="text-decoration-none text-light">AdsRole</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="../script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
