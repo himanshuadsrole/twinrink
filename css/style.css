@@ -395,12 +395,25 @@
 
 
 
-.payment_card{
-    outline: 2px solid;
-    outline-offset: -5px;
+
+
+.payment_link{
+    font-weight: 500;
 }
 
+.payment_sub_heading{
+    font-size: 1.1rem;
+}
 
+.payment_table{
+    background-color: #FFEBB5;
+    border: 1px solid var(--dark-color);
+   
+}
+
+.payment_table>tbody>tr:hover{
+    background-color: #fdeec2;
+}
 
 
 
