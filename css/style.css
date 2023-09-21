@@ -395,16 +395,6 @@
 
 
 
-
-
-.payment_link{
-    font-weight: 500!important;
-}
-
-.payment_sub_heading{
-    font-size: 1.1rem!important;
-}
-
 .payment_table{
     background-color: #FFEBB5!important;
     border: 1px solid var(--dark-color)!important;
@@ -414,6 +404,16 @@
 .payment_table>tbody>tr:hover{
     background-color: #fdeec2!important;
 }
+
+.payment_link{
+    font-weight: 500!important;
+}
+
+.payment_sub_heading{
+    font-size: 1.1rem!important;
+}
+
+
 
 
 
